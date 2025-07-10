@@ -1,0 +1,6 @@
+framework module OrigoNAOSDK {
+  umbrella header "OrigoNAOSDK.h"
+  export *
+
+  module * { export * }
+}

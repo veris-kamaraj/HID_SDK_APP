@@ -1,0 +1,3996 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "OrigoMelSDK",
+    "printedName": "OrigoMelSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SafeDictionary",
+        "printedName": "SafeDictionary",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "values",
+            "printedName": "values",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK14SafeDictionaryC6valuesSayxGvp",
+            "mangledName": "$s11OrigoMelSDK14SafeDictionaryC6valuesSayxGvp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK14SafeDictionaryC6valuesSayxGvg",
+                "mangledName": "$s11OrigoMelSDK14SafeDictionaryC6valuesSayxGvg",
+                "moduleName": "OrigoMelSDK",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setValue",
+            "printedName": "setValue(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OrigoMelSDK14SafeDictionaryC8setValueyySS_xtF",
+            "mangledName": "$s11OrigoMelSDK14SafeDictionaryC8setValueyySS_xtF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "value",
+            "printedName": "value(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OrigoMelSDK14SafeDictionaryC5valueyxSgSSF",
+            "mangledName": "$s11OrigoMelSDK14SafeDictionaryC5valueyxSgSSF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeValue",
+            "printedName": "removeValue(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OrigoMelSDK14SafeDictionaryC11removeValueyySSF",
+            "mangledName": "$s11OrigoMelSDK14SafeDictionaryC11removeValueyySSF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OrigoMelSDK14SafeDictionaryC9removeAllyyF",
+            "mangledName": "$s11OrigoMelSDK14SafeDictionaryC9removeAllyyF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11OrigoMelSDK14SafeDictionaryC",
+        "mangledName": "$s11OrigoMelSDK14SafeDictionaryC",
+        "moduleName": "OrigoMelSDK",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MelAnalyticsBaseAPI",
+        "printedName": "MelAnalyticsBaseAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "track",
+            "printedName": "track(eventName:attributes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI(im)trackWithEventName:attributes:error:",
+            "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP5track9eventName10attributesySS_SDySSypGSgtKF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "sugared_genericSig": "<Self where Self : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "protocolReq": true,
+            "objc_name": "trackWithEventName:attributes:error:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "track",
+            "printedName": "track(eventName:attributes:includeDeviceProperties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI(im)trackWithEventName:attributes:includeDeviceProperties:error:",
+            "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP5track9eventName10attributes23includeDevicePropertiesySS_SDySSypGSgSbtKF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "sugared_genericSig": "<Self where Self : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "protocolReq": true,
+            "objc_name": "trackWithEventName:attributes:includeDeviceProperties:error:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "timeEvent",
+            "printedName": "timeEvent(eventName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI(im)timeEventWithEventName:error:",
+            "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP9timeEvent9eventNameySS_tKF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "sugared_genericSig": "<Self where Self : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "protocolReq": true,
+            "objc_name": "timeEventWithEventName:error:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerSuperProperties",
+            "printedName": "registerSuperProperties(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI(im)registerSuperPropertiesWithProperties:error:",
+            "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP23registerSuperProperties10propertiesySDySSypG_tKF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "sugared_genericSig": "<Self where Self : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "protocolReq": true,
+            "objc_name": "registerSuperPropertiesWithProperties:error:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterSuperProperty",
+            "printedName": "unregisterSuperProperty(propertyName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI(im)unregisterSuperPropertyWithPropertyName:",
+            "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP23unregisterSuperProperty12propertyNameySS_tF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "sugared_genericSig": "<Self where Self : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "protocolReq": true,
+            "objc_name": "unregisterSuperPropertyWithPropertyName:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterAllSuperProperties",
+            "printedName": "unregisterAllSuperProperties()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI(im)unregisterAllSuperProperties",
+            "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP28unregisterAllSuperPropertiesyyF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "sugared_genericSig": "<Self where Self : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteExpiredData",
+            "printedName": "deleteExpiredData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI(im)deleteExpiredData",
+            "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP17deleteExpiredDatayyF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "sugared_genericSig": "<Self where Self : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "syncEvents",
+            "printedName": "syncEvents()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI(im)syncEvents",
+            "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP10syncEventsyyF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "sugared_genericSig": "<Self where Self : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearAllData",
+            "printedName": "clearAllData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI(im)clearAllData",
+            "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP12clearAllDatayyF",
+            "moduleName": "OrigoMelSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "sugared_genericSig": "<Self where Self : OrigoMelSDK.MelAnalyticsBaseAPI>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI",
+        "mangledName": "$s11OrigoMelSDK0B16AnalyticsBaseAPIP",
+        "moduleName": "OrigoMelSDK",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MelBuildEnvironments",
+        "printedName": "MelBuildEnvironments",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PROD",
+            "printedName": "PROD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelBuildEnvironments.Type) -> OrigoMelSDK.MelBuildEnvironments",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelBuildEnvironments",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                    "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelBuildEnvironments",
+                        "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                        "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments@MelBuildEnvironmentsPROD",
+            "mangledName": "$s11OrigoMelSDK0B17BuildEnvironmentsO4PRODyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "PREPROD",
+            "printedName": "PREPROD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelBuildEnvironments.Type) -> OrigoMelSDK.MelBuildEnvironments",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelBuildEnvironments",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                    "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelBuildEnvironments",
+                        "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                        "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments@MelBuildEnvironmentsPREPROD",
+            "mangledName": "$s11OrigoMelSDK0B17BuildEnvironmentsO7PREPRODyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "CERT",
+            "printedName": "CERT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelBuildEnvironments.Type) -> OrigoMelSDK.MelBuildEnvironments",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelBuildEnvironments",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                    "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelBuildEnvironments",
+                        "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                        "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments@MelBuildEnvironmentsCERT",
+            "mangledName": "$s11OrigoMelSDK0B17BuildEnvironmentsO4CERTyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "TEST",
+            "printedName": "TEST",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelBuildEnvironments.Type) -> OrigoMelSDK.MelBuildEnvironments",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelBuildEnvironments",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                    "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelBuildEnvironments",
+                        "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                        "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments@MelBuildEnvironmentsTEST",
+            "mangledName": "$s11OrigoMelSDK0B17BuildEnvironmentsO4TESTyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "DEV",
+            "printedName": "DEV",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelBuildEnvironments.Type) -> OrigoMelSDK.MelBuildEnvironments",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelBuildEnvironments",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                    "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelBuildEnvironments",
+                        "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                        "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments@MelBuildEnvironmentsDEV",
+            "mangledName": "$s11OrigoMelSDK0B17BuildEnvironmentsO3DEVyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OrigoMelSDK.MelBuildEnvironments?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelBuildEnvironments",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                    "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OrigoMelSDK0B17BuildEnvironmentsO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11OrigoMelSDK0B17BuildEnvironmentsO8rawValueACSgSi_tcfc",
+            "moduleName": "OrigoMelSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B17BuildEnvironmentsO8rawValueSivp",
+            "mangledName": "$s11OrigoMelSDK0B17BuildEnvironmentsO8rawValueSivp",
+            "moduleName": "OrigoMelSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B17BuildEnvironmentsO8rawValueSivg",
+                "mangledName": "$s11OrigoMelSDK0B17BuildEnvironmentsO8rawValueSivg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments",
+        "mangledName": "$s11OrigoMelSDK0B17BuildEnvironmentsO",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MelBuilder",
+        "printedName": "MelBuilder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B7BuilderC6apiKeySSvp",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC6apiKeySSvp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B7BuilderC6apiKeySSvg",
+                "mangledName": "$s11OrigoMelSDK0B7BuilderC6apiKeySSvg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appId",
+            "printedName": "appId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B7BuilderC5appIdSSvp",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC5appIdSSvp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B7BuilderC5appIdSSvg",
+                "mangledName": "$s11OrigoMelSDK0B7BuilderC5appIdSSvg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invitationHashCode",
+            "printedName": "invitationHashCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B7BuilderC18invitationHashCodeSSvp",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC18invitationHashCodeSSvp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B7BuilderC18invitationHashCodeSSvg",
+                "mangledName": "$s11OrigoMelSDK0B7BuilderC18invitationHashCodeSSvg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "retryLimit",
+            "printedName": "retryLimit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B7BuilderC10retryLimitSivp",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC10retryLimitSivp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B7BuilderC10retryLimitSivg",
+                "mangledName": "$s11OrigoMelSDK0B7BuilderC10retryLimitSivg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batchLimit",
+            "printedName": "batchLimit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B7BuilderC10batchLimitSivp",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC10batchLimitSivp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B7BuilderC10batchLimitSivg",
+                "mangledName": "$s11OrigoMelSDK0B7BuilderC10batchLimitSivg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batchSyncInterval",
+            "printedName": "batchSyncInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B7BuilderC17batchSyncIntervalSdvp",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC17batchSyncIntervalSdvp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B7BuilderC17batchSyncIntervalSdvg",
+                "mangledName": "$s11OrigoMelSDK0B7BuilderC17batchSyncIntervalSdvg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataStorageLimit",
+            "printedName": "dataStorageLimit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B7BuilderC16dataStorageLimitSivp",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC16dataStorageLimitSivp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B7BuilderC16dataStorageLimitSivg",
+                "mangledName": "$s11OrigoMelSDK0B7BuilderC16dataStorageLimitSivg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataStorageTimeLimit",
+            "printedName": "dataStorageTimeLimit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B7BuilderC20dataStorageTimeLimitSdvp",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC20dataStorageTimeLimitSdvp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B7BuilderC20dataStorageTimeLimitSdvg",
+                "mangledName": "$s11OrigoMelSDK0B7BuilderC20dataStorageTimeLimitSdvg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buildEnvironment",
+            "printedName": "buildEnvironment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MelBuildEnvironments",
+                "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B7BuilderC16buildEnvironmentAA0B17BuildEnvironmentsOvp",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC16buildEnvironmentAA0B17BuildEnvironmentsOvp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelBuildEnvironments",
+                    "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                    "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B7BuilderC16buildEnvironmentAA0B17BuildEnvironmentsOvg",
+                "mangledName": "$s11OrigoMelSDK0B7BuilderC16buildEnvironmentAA0B17BuildEnvironmentsOvg",
+                "moduleName": "OrigoMelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appId:apiKey:invitationHashCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MelBuilder",
+                "printedName": "OrigoMelSDK.MelBuilder",
+                "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)initWithAppId:apiKey:invitationHashCode:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC5appId6apiKey18invitationHashCodeACSS_S2Stcfc",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "initWithAppId:apiKey:invitationHashCode:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setAPIKey",
+            "printedName": "setAPIKey(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)setAPIKeyWithKey:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC9setAPIKey3keyySS_tF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "setAPIKeyWithKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAppId",
+            "printedName": "setAppId(appId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)setAppIdWithAppId:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC8setAppId03appG0ySS_tF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "setAppIdWithAppId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInvitationHashCode",
+            "printedName": "setInvitationHashCode(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)setInvitationHashCodeWithCode:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC21setInvitationHashCode4codeySS_tF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "setInvitationHashCodeWithCode:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBuildEnvironment",
+            "printedName": "setBuildEnvironment(buildEnvironment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MelBuildEnvironments",
+                "printedName": "OrigoMelSDK.MelBuildEnvironments",
+                "usr": "c:@M@OrigoMelSDK@E@MelBuildEnvironments"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)setBuildEnvironmentWithBuildEnvironment:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC19setBuildEnvironment05buildG0yAA0bF12EnvironmentsO_tF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "setBuildEnvironmentWithBuildEnvironment:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRetryLimit",
+            "printedName": "setRetryLimit(limit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)setRetryLimitWithLimit:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC13setRetryLimit5limitySi_tF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "setRetryLimitWithLimit:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBatchLimit",
+            "printedName": "setBatchLimit(limit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)setBatchLimitWithLimit:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC13setBatchLimit5limitySi_tF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "setBatchLimitWithLimit:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBatchSyncInterval",
+            "printedName": "setBatchSyncInterval(interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)setBatchSyncIntervalWithInterval:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC20setBatchSyncInterval8intervalySd_tF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "setBatchSyncIntervalWithInterval:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDataStorageLimit",
+            "printedName": "setDataStorageLimit(limit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)setDataStorageLimitWithLimit:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC19setDataStorageLimit5limitySi_tF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "setDataStorageLimitWithLimit:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDataStorageTimeLimit",
+            "printedName": "setDataStorageTimeLimit(limit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)setDataStorageTimeLimitWithLimit:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC23setDataStorageTimeLimit5limitySd_tF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "setDataStorageTimeLimitWithLimit:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setErrorHandler",
+            "printedName": "setErrorHandler(errorHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((OrigoMelSDK.MelErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OrigoMelSDK.MelErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OrigoMelSDK0B7BuilderC15setErrorHandler05errorG0yyAA0bF4CodeOcSg_tF",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC15setErrorHandler05errorG0yyAA0bF4CodeOcSg_tF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MelAnalyticsBaseAPI",
+                "printedName": "any OrigoMelSDK.MelAnalyticsBaseAPI",
+                "usr": "c:@M@OrigoMelSDK@objc(pl)MelAnalyticsBaseAPI"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)buildAndReturnError:",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderC5buildAA0B16AnalyticsBaseAPI_pyKF",
+            "moduleName": "OrigoMelSDK",
+            "objc_name": "buildAndReturnError:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MelBuilder",
+                "printedName": "OrigoMelSDK.MelBuilder",
+                "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder(im)init",
+            "mangledName": "$s11OrigoMelSDK0B7BuilderCACycfc",
+            "moduleName": "OrigoMelSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OrigoMelSDK@objc(cs)MelBuilder",
+        "mangledName": "$s11OrigoMelSDK0B7BuilderC",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto.CommonDigest",
+        "printedName": "CommonCrypto.CommonDigest",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto.CommonCryptor",
+        "printedName": "CommonCrypto.CommonCryptor",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MelErrorCode",
+        "printedName": "MelErrorCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "MEL_EMPTY_EVENT_NAME",
+            "printedName": "MEL_EMPTY_EVENT_NAME",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO20MEL_EMPTY_EVENT_NAMEyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO20MEL_EMPTY_EVENT_NAMEyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_INVALID_INVITATION_CODE",
+            "printedName": "MEL_INVALID_INVITATION_CODE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO27MEL_INVALID_INVITATION_CODEyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO27MEL_INVALID_INVITATION_CODEyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_INVALID_RETRY_LIMIT",
+            "printedName": "MEL_INVALID_RETRY_LIMIT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO23MEL_INVALID_RETRY_LIMITyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO23MEL_INVALID_RETRY_LIMITyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_INVALID_BATCH_LIMIT",
+            "printedName": "MEL_INVALID_BATCH_LIMIT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO23MEL_INVALID_BATCH_LIMITyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO23MEL_INVALID_BATCH_LIMITyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_INVALID_BATCH_SYNC_INTERVAL",
+            "printedName": "MEL_INVALID_BATCH_SYNC_INTERVAL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO31MEL_INVALID_BATCH_SYNC_INTERVALyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO31MEL_INVALID_BATCH_SYNC_INTERVALyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_INVALID_DATA_STORAGE_LIMIT",
+            "printedName": "MEL_INVALID_DATA_STORAGE_LIMIT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO30MEL_INVALID_DATA_STORAGE_LIMITyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO30MEL_INVALID_DATA_STORAGE_LIMITyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_INVALID_DATA_STORAGE_TIME_LIMIT",
+            "printedName": "MEL_INVALID_DATA_STORAGE_TIME_LIMIT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO35MEL_INVALID_DATA_STORAGE_TIME_LIMITyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO35MEL_INVALID_DATA_STORAGE_TIME_LIMITyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_DATA_STORAGE_LIMIT_REACHED",
+            "printedName": "MEL_DATA_STORAGE_LIMIT_REACHED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO30MEL_DATA_STORAGE_LIMIT_REACHEDyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO30MEL_DATA_STORAGE_LIMIT_REACHEDyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_INVALID_API_KEY",
+            "printedName": "MEL_INVALID_API_KEY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO19MEL_INVALID_API_KEYyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO19MEL_INVALID_API_KEYyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_INVALID_APP_ID",
+            "printedName": "MEL_INVALID_APP_ID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO18MEL_INVALID_APP_IDyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO18MEL_INVALID_APP_IDyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_REGISTRATION_FAILED",
+            "printedName": "MEL_REGISTRATION_FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> (Swift.String) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OrigoMelSDK.MelErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO23MEL_REGISTRATION_FAILEDyACSS_tcACmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO23MEL_REGISTRATION_FAILEDyACSS_tcACmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_LOGIN_FAILED",
+            "printedName": "MEL_LOGIN_FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> (Swift.String) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OrigoMelSDK.MelErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO16MEL_LOGIN_FAILEDyACSS_tcACmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO16MEL_LOGIN_FAILEDyACSS_tcACmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_EVENTS_SYNC_FAILED",
+            "printedName": "MEL_EVENTS_SYNC_FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> (Swift.String) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OrigoMelSDK.MelErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO22MEL_EVENTS_SYNC_FAILEDyACSS_tcACmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO22MEL_EVENTS_SYNC_FAILEDyACSS_tcACmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MEL_NETWORK_NOT_AVAILABLE",
+            "printedName": "MEL_NETWORK_NOT_AVAILABLE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OrigoMelSDK.MelErrorCode.Type) -> OrigoMelSDK.MelErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MelErrorCode",
+                    "printedName": "OrigoMelSDK.MelErrorCode",
+                    "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OrigoMelSDK.MelErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MelErrorCode",
+                        "printedName": "OrigoMelSDK.MelErrorCode",
+                        "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO25MEL_NETWORK_NOT_AVAILABLEyA2CmF",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO25MEL_NETWORK_NOT_AVAILABLEyA2CmF",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MelErrorCode",
+                "printedName": "OrigoMelSDK.MelErrorCode",
+                "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MelErrorCode",
+                "printedName": "OrigoMelSDK.MelErrorCode",
+                "usr": "s:11OrigoMelSDK0B9ErrorCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO2eeoiySbAC_ACtFZ",
+            "moduleName": "OrigoMelSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OrigoMelSDK0B9ErrorCodeO16errorDescriptionSSSgvp",
+            "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO16errorDescriptionSSSgvp",
+            "moduleName": "OrigoMelSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OrigoMelSDK0B9ErrorCodeO16errorDescriptionSSSgvg",
+                "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO16errorDescriptionSSSgvg",
+                "moduleName": "OrigoMelSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11OrigoMelSDK0B9ErrorCodeO",
+        "mangledName": "$s11OrigoMelSDK0B9ErrorCodeO",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrigoMelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/AutomaticProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 58,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/AutomaticProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 1,
+      "value": "\".automaticPropertiesLock\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/AutomaticProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 7,
+      "value": "\"macOS\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/AutomaticProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1830,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelSDSDataBaseHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelSDSDataBaseHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1027,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/DeviceEndpointHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 20,
+      "value": "\"invitationHashCode\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/DeviceEndpointHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 44,
+      "value": "\"\/origo\/sdkcredentialmanager\/registerdevice\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/DeviceEndpointHolder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/DeviceEndpointHolder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 616,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/EventsHandler\/EventsHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/EventsHandler\/EventsHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 180,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/EventsHandler\/EventsHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6222,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/EventsHandler\/EventsHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9353,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/SynchronizedBarrier.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 29,
+      "value": "\"com.Mel.SynchronizedBarrier\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPClient.swift",
+      "kind": "FloatLiteral",
+      "offset": 235,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 276,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 282,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 4,
+      "value": "-999"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPClient.swift",
+      "kind": "FloatLiteral",
+      "offset": 360,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPClient.swift",
+      "kind": "FloatLiteral",
+      "offset": 394,
+      "length": 4,
+      "value": "90.0"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Extensions\/URLRequest+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 213,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelSDSEntity+Private.swift",
+      "kind": "StringLiteral",
+      "offset": 137,
+      "length": 18,
+      "value": "\"kqzezlt2e29igc2i\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelSDSEntity+Private.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 18,
+      "value": "\"qwwz42egvvl6qcwd\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelSDSEntity+Private.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 18,
+      "value": "\"iq8ts33eu5mku9wt\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelSDSEntity+Private.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 18,
+      "value": "\"U3z6fjkaudzd4adc\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/MelSecuredDataStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 33,
+      "value": "\"ThreadSafe.SerialQueue.OrigoMEL\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/MelSecuredDataStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 18,
+      "value": "\"HAnscOCtuIhg91PA\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/MelSecuredDataStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1164,
+      "length": 18,
+      "value": "\"r7R24ABRJPfAcINW\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/MelBuildEnvironments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/MelBuildEnvironments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/MelBuildEnvironments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/MelBuildEnvironments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 3,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 91,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 114,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 137,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 162,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/HTTPConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 340,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 550,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 553,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 556,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 559,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 562,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 622,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 695,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 698,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 750,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 804,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 813,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 816,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 819,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 868,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 902,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2108,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/SymmetricKey.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 11,
+      "value": "\"cryptoKey\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/SymmetricKey.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 4,
+      "value": "\"IV\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/SymmetricKey.swift",
+      "kind": "BooleanLiteral",
+      "offset": 704,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/SymmetricKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6997,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/SymmetricKey.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7002,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/SymmetricKey.swift",
+      "kind": "Array",
+      "offset": 7068,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 21,
+      "value": "\"com.hid.OrigoMelSDK\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 18,
+      "value": "\"6IQM2e2Pp6HAj23r\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 18,
+      "value": "\"QUUBOJPXwm12eEA3\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 18,
+      "value": "\"zz9sBFE8AQ7X7BDL\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 18,
+      "value": "\"odhQwFJYOdrLSTYh\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 18,
+      "value": "\"LQ9rwgkiQKkU7QmV\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 18,
+      "value": "\"i98MzosLgMwNOl2A\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 18,
+      "value": "\"HMeu1ujJOW1mdlkZ\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 15,
+      "value": "\"m_destination\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 10,
+      "value": "\"m_source\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 8,
+      "value": "\"m_CARR\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 8,
+      "value": "\"m_UUID\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 864,
+      "length": 12,
+      "value": "\"m_duration\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 7,
+      "value": "\"m_MFR\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 7,
+      "value": "\"m_MDL\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 986,
+      "length": 9,
+      "value": "\"m_w_MDL\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 6,
+      "value": "\"m_OS\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 7,
+      "value": "\"m_OSV\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 8,
+      "value": "\"m_wifi\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 8,
+      "value": "\"m_time\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1176,
+      "length": 9,
+      "value": "\"m_event\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 9,
+      "value": "\"m_appId\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1255,
+      "length": 15,
+      "value": "\"m_lib_version\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
+      "length": 5,
+      "value": "\"Mel\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1347,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1385,
+      "length": 7,
+      "value": "\"1.0.1\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1442,
+      "length": 11,
+      "value": "\"x-api-key\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/APIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1508,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Reachability\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 21,
+      "value": "\"reachabilityChanged\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Reachability\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3022,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Reachability\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/RetryHolder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 180,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/RetryHolder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/RetryHolder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelCoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 143,
+      "length": 14,
+      "value": "\"MelDataModel\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelCoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 6,
+      "value": "\"momd\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelCoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 27,
+      "value": "\"Unable to Find Data Model\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/Internal\/MelCoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 27,
+      "value": "\"Unable to Load Data Model\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/EventsHandler\/EventsSender.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 18,
+      "value": "\"\/origo\/ma\/events\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/LibraryPreferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 215,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelAnalyticsAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 126,
+      "length": 11,
+      "value": "\"analytics\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/MelAnalyticsAPI.swift",
+      "kind": "Dictionary",
+      "offset": 1764,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/Event.swift",
+      "kind": "BooleanLiteral",
+      "offset": 168,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/SDS\/MelKeyChainHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3657,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/CertificateHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 3020,
+      "value": "\"308205e1308204c9a003020102021001f3ce474080b222a468303d95ded43d300d06092a864886f70d01010b0500303c310b3009060355040613025553310f300d060355040a1306416d617a6f6e311c301a06035504031313416d617a6f6e205253412032303438204d3032301e170d3233303932323030303030305a170d3234313032303233353935395a301b31193017060355040313106170692e686964636c6f75642e636f6d30820122300d06092a864886f70d01010105000382010f003082010a0282010100ac1f1a6db218d90dbc44964516924dd39b8b86bf4d3019fcf20240a52f2cf417771a03ce27392fec2f995851c3e4605c70bbf85ea30a31a98f03d482bed04602c6fdd9a0c2e48a7482ea62a0ad3812ca51d75fbe11f5cf89bdd3522901984a50f8a7bace0d791559a8baad294c67f8198049afa02bba9fb6fd49336be5652af1518f33f8f069eeebdc4d979d322dda1ce2abce1aa7ca872238332e97ad974ec72f5bd7f694086c03c6e92bf3ba081285e460bb93037af547653da6c4a002dc5f1d8fd0156b4ce4419dac4cd3a789b7e42aced65bf58436e1d1e399abd188b8172edf66f8cfbabade01ee898c69459cb135549434dd411e0b5a5ba39a43c8167d0203010001a38202fe308202fa301f0603551d23041830168014c03152cd5a50c3827c7471cecbe99cf97aeb82e2301d0603551d0e04160414df5a26ca84439c3eb97ecd46aeebb7270dcdcc90302f0603551d110428302682106170692e686964636c6f75642e636f6d82122a2e6170692e686964636c6f75642e636f6d30130603551d20040c300a3008060667810c010201300e0603551d0f0101ff0404030205a0301d0603551d250416301406082b0601050507030106082b06010505070302303b0603551d1f043430323030a02ea02c862a687474703a2f2f63726c2e72326d30322e616d617a6f6e74727573742e636f6d2f72326d30322e63726c307506082b0601050507010104693067302d06082b060105050730018621687474703a2f2f6f6373702e72326d30322e616d617a6f6e74727573742e636f6d303606082b06010505073002862a687474703a2f2f6372742e72326d30322e616d617a6f6e74727573742e636f6d2f72326d30322e636572300c0603551d130101ff040230003082017f060a2b06010401d6790204020482016f0482016b0169007500eecdd064d5db1acec55cb79db4cd13a23287467cbcecdec351485946711fb59b0000018abb39481d00000403004630440220136d0f57c2378eb4a07f58a33dd52655327f75a1a934eafbd6016256ccb1e03b0220053de22f4e14ee48856d1b89f218c7493653a0f40d79c8a77f58eb217321684100770048b0e36bdaa647340fe56a02fa9d30eb1c5201cb56dd2c81d9bbbfab39d884730000018abb3948660000040300483046022100a193b1bad1fe43b084afdbe6e6527fe904cfafb6374da1a4a552cb10e3f8ce36022100dcee5639ec666811b4707a0696a3c13454f9901c1db763bca700779daa0cd370007700dab6bf6b3fb5b6229f9bc2bb5c6be87091716cbb51848534bda43d3048d7fbab0000018abb394857000004030048304602210083d7c6a5a1f26aaa581db8b35a3db65ca649124afc86e48c541f88283762412e022100d275b0a8919813b7741e2d0d2c534eb1af6ecd6aceb12408f63000fad2c4fad2300d06092a864886f70d01010b050003820101009b3e62722d29f90bdc0a7bd0b93407ca07259fb08a282834544507e235ed1ccc64ef8762fb2d11780c34bb21b589e16276753367ec155ecb89c3c5d27979bf4fc6795b3ad1e1372b7bc8dcd652114bef7f1a4c124587c82c5d8c294f5530def6b40cc009eb39dcb8604aa7ab095cec50b78688e65cc8646b9863800b335a4cca1d20b03c8c68335b1391409e6b719f5441a55da63707cd281a23d6d903f45be319bf4b51a450a4d72c997d80eff287024e577f00db9dfd6ba2bea8f4fd2368afa93bfdbd68117efeefca8fb9749caca764b791e6a10ddbddcd8e8d2cd7a11d96f18f39fb9e4035df7c2a398423bde0904f866cb51fc214846fe58076acfd1cac\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/CertificateHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 3414,
+      "length": 2246,
+      "value": "\"3082045e30820346a00302010202130773124a4bcbd44ec7b53beaf194842d3a0fa1300d06092a864886f70d01010b05003039310b3009060355040613025553310f300d060355040a1306416d617a6f6e3119301706035504031310416d617a6f6e20526f6f742043412031301e170d3232303832333232323533305a170d3330303832333232323533305a303c310b3009060355040613025553310f300d060355040a1306416d617a6f6e311c301a06035504031313416d617a6f6e205253412032303438204d303230820122300d06092a864886f70d01010105000382010f003082010a0282010100bb4318c65aa879de29e8b56f2ebea543cf2e58d3075e374a2e95a4458f73a9929058596ffeaaae4672a079502db0d89c8d83ee10f4b1dcc4a9f9ee02322cb9740b1b703c4ef5fa577a053411557bc3652c91ef06c78a63cf2c68bc2e7f191957093be20e275a534c5f395af58e45df0c111f03151f8e37c46cfa52d192652a90f78785c795fb4e5aadf30862f2a09a29d679acd6a4fabf6751384e78296a15de285f2721fff45ced8d1e5f528d587612235364df59988222b726f1f4eb783e2bdb4703add979380a82776587e588fb3bfb8b8e077a94598c0d45630619f55bfff54902e58cfcff253ae5f823684fb05473387bf6320b6a2cacf584ee027e75730203010001a382015a3082015630120603551d130101ff040830060101ff020100300e0603551d0f0101ff040403020186301d0603551d250416301406082b0601050507030106082b06010505070302301d0603551d0e04160414c03152cd5a50c3827c7471cecbe99cf97aeb82e2301f0603551d230418301680148418cc8534ecbc0c94942e08599cc7b2104e0a08307b06082b06010505070101046f306d302f06082b060105050730018623687474703a2f2f6f6373702e726f6f746361312e616d617a6f6e74727573742e636f6d303a06082b06010505073002862e687474703a2f2f6372742e726f6f746361312e616d617a6f6e74727573742e636f6d2f726f6f746361312e636572303f0603551d1f043830363034a032a030862e687474703a2f2f63726c2e726f6f746361312e616d617a6f6e74727573742e636f6d2f726f6f746361312e63726c30130603551d20040c300a3008060667810c010201300d06092a864886f70d01010b050003820101002d4e2e85b340337e2fa2c26ee3af3f824b11c7fae1e5ecb6b0dcc4125d5b51f11579dcfb51eabffa80da6a97376866ae0529b0038b5bfd06e9fc458f03e75b9e7517e3b1b7a8762cde041f275e67b20f7dc4a7b5404e3e28cdc777d581557e0461bd34b136bad394da569149349b704c3eff2c837f351e103ab84628904e6af6ec2cff76242aa462133dd3b1a5a626a21166131b8007e9eceec55301486fb508b29a206522b13c8589a7188fa374dc05a99b6d5b5039c3515b3e6a090743b25236c9acaad27d935e81f23422c41fcae9b0945520b16c8348dcec1685acc9c5e3adbe6a349e8608f5d8889d35e44de3397e12835a59da675a776f4a900492ad8f\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/CertificateHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 5690,
+      "length": 3020,
+      "value": "\"308205e1308204c9a003020102021001f3ce474080b222a468303d95ded43d300d06092a864886f70d01010b0500303c310b3009060355040613025553310f300d060355040a1306416d617a6f6e311c301a06035504031313416d617a6f6e205253412032303438204d3032301e170d3233303932323030303030305a170d3234313032303233353935395a301b31193017060355040313106170692e686964636c6f75642e636f6d30820122300d06092a864886f70d01010105000382010f003082010a0282010100ac1f1a6db218d90dbc44964516924dd39b8b86bf4d3019fcf20240a52f2cf417771a03ce27392fec2f995851c3e4605c70bbf85ea30a31a98f03d482bed04602c6fdd9a0c2e48a7482ea62a0ad3812ca51d75fbe11f5cf89bdd3522901984a50f8a7bace0d791559a8baad294c67f8198049afa02bba9fb6fd49336be5652af1518f33f8f069eeebdc4d979d322dda1ce2abce1aa7ca872238332e97ad974ec72f5bd7f694086c03c6e92bf3ba081285e460bb93037af547653da6c4a002dc5f1d8fd0156b4ce4419dac4cd3a789b7e42aced65bf58436e1d1e399abd188b8172edf66f8cfbabade01ee898c69459cb135549434dd411e0b5a5ba39a43c8167d0203010001a38202fe308202fa301f0603551d23041830168014c03152cd5a50c3827c7471cecbe99cf97aeb82e2301d0603551d0e04160414df5a26ca84439c3eb97ecd46aeebb7270dcdcc90302f0603551d110428302682106170692e686964636c6f75642e636f6d82122a2e6170692e686964636c6f75642e636f6d30130603551d20040c300a3008060667810c010201300e0603551d0f0101ff0404030205a0301d0603551d250416301406082b0601050507030106082b06010505070302303b0603551d1f043430323030a02ea02c862a687474703a2f2f63726c2e72326d30322e616d617a6f6e74727573742e636f6d2f72326d30322e63726c307506082b0601050507010104693067302d06082b060105050730018621687474703a2f2f6f6373702e72326d30322e616d617a6f6e74727573742e636f6d303606082b06010505073002862a687474703a2f2f6372742e72326d30322e616d617a6f6e74727573742e636f6d2f72326d30322e636572300c0603551d130101ff040230003082017f060a2b06010401d6790204020482016f0482016b0169007500eecdd064d5db1acec55cb79db4cd13a23287467cbcecdec351485946711fb59b0000018abb39481d00000403004630440220136d0f57c2378eb4a07f58a33dd52655327f75a1a934eafbd6016256ccb1e03b0220053de22f4e14ee48856d1b89f218c7493653a0f40d79c8a77f58eb217321684100770048b0e36bdaa647340fe56a02fa9d30eb1c5201cb56dd2c81d9bbbfab39d884730000018abb3948660000040300483046022100a193b1bad1fe43b084afdbe6e6527fe904cfafb6374da1a4a552cb10e3f8ce36022100dcee5639ec666811b4707a0696a3c13454f9901c1db763bca700779daa0cd370007700dab6bf6b3fb5b6229f9bc2bb5c6be87091716cbb51848534bda43d3048d7fbab0000018abb394857000004030048304602210083d7c6a5a1f26aaa581db8b35a3db65ca649124afc86e48c541f88283762412e022100d275b0a8919813b7741e2d0d2c534eb1af6ecd6aceb12408f63000fad2c4fad2300d06092a864886f70d01010b050003820101009b3e62722d29f90bdc0a7bd0b93407ca07259fb08a282834544507e235ed1ccc64ef8762fb2d11780c34bb21b589e16276753367ec155ecb89c3c5d27979bf4fc6795b3ad1e1372b7bc8dcd652114bef7f1a4c124587c82c5d8c294f5530def6b40cc009eb39dcb8604aa7ab095cec50b78688e65cc8646b9863800b335a4cca1d20b03c8c68335b1391409e6b719f5441a55da63707cd281a23d6d903f45be319bf4b51a450a4d72c997d80eff287024e577f00db9dfd6ba2bea8f4fd2368afa93bfdbd68117efeefca8fb9749caca764b791e6a10ddbddcd8e8d2cd7a11d96f18f39fb9e4035df7c2a398423bde0904f866cb51fc214846fe58076acfd1cac\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/CertificateHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 8738,
+      "length": 2246,
+      "value": "\"3082045e30820346a00302010202130773124a4bcbd44ec7b53beaf194842d3a0fa1300d06092a864886f70d01010b05003039310b3009060355040613025553310f300d060355040a1306416d617a6f6e3119301706035504031310416d617a6f6e20526f6f742043412031301e170d3232303832333232323533305a170d3330303832333232323533305a303c310b3009060355040613025553310f300d060355040a1306416d617a6f6e311c301a06035504031313416d617a6f6e205253412032303438204d303230820122300d06092a864886f70d01010105000382010f003082010a0282010100bb4318c65aa879de29e8b56f2ebea543cf2e58d3075e374a2e95a4458f73a9929058596ffeaaae4672a079502db0d89c8d83ee10f4b1dcc4a9f9ee02322cb9740b1b703c4ef5fa577a053411557bc3652c91ef06c78a63cf2c68bc2e7f191957093be20e275a534c5f395af58e45df0c111f03151f8e37c46cfa52d192652a90f78785c795fb4e5aadf30862f2a09a29d679acd6a4fabf6751384e78296a15de285f2721fff45ced8d1e5f528d587612235364df59988222b726f1f4eb783e2bdb4703add979380a82776587e588fb3bfb8b8e077a94598c0d45630619f55bfff54902e58cfcff253ae5f823684fb05473387bf6320b6a2cacf584ee027e75730203010001a382015a3082015630120603551d130101ff040830060101ff020100300e0603551d0f0101ff040403020186301d0603551d250416301406082b0601050507030106082b06010505070302301d0603551d0e04160414c03152cd5a50c3827c7471cecbe99cf97aeb82e2301f0603551d230418301680148418cc8534ecbc0c94942e08599cc7b2104e0a08307b06082b06010505070101046f306d302f06082b060105050730018623687474703a2f2f6f6373702e726f6f746361312e616d617a6f6e74727573742e636f6d303a06082b06010505073002862e687474703a2f2f6372742e726f6f746361312e616d617a6f6e74727573742e636f6d2f726f6f746361312e636572303f0603551d1f043830363034a032a030862e687474703a2f2f63726c2e726f6f746361312e616d617a6f6e74727573742e636f6d2f726f6f746361312e63726c30130603551d20040c300a3008060667810c010201300d06092a864886f70d01010b050003820101002d4e2e85b340337e2fa2c26ee3af3f824b11c7fae1e5ecb6b0dcc4125d5b51f11579dcfb51eabffa80da6a97376866ae0529b0038b5bfd06e9fc458f03e75b9e7517e3b1b7a8762cde041f275e67b20f7dc4a7b5404e3e28cdc777d581557e0461bd34b136bad394da569149349b704c3eff2c837f351e103ab84628904e6af6ec2cff76242aa462133dd3b1a5a626a21166131b8007e9eceec55301486fb508b29a206522b13c8589a7188fa374dc05a99b6d5b5039c3515b3e6a090743b25236c9acaad27d935e81f23422c41fcae9b0945520b16c8348dcec1685acc9c5e3adbe6a349e8608f5d8889d35e44de3397e12835a59da675a776f4a900492ad8f\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/HTTPClient\/CertificateHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 11009,
+      "length": 2246,
+      "value": "\"3082045e30820346a00302010202130773124a4bcbd44ec7b53beaf194842d3a0fa1300d06092a864886f70d01010b05003039310b3009060355040613025553310f300d060355040a1306416d617a6f6e3119301706035504031310416d617a6f6e20526f6f742043412031301e170d3232303832333232323533305a170d3330303832333232323533305a303c310b3009060355040613025553310f300d060355040a1306416d617a6f6e311c301a06035504031313416d617a6f6e205253412032303438204d303230820122300d06092a864886f70d01010105000382010f003082010a0282010100bb4318c65aa879de29e8b56f2ebea543cf2e58d3075e374a2e95a4458f73a9929058596ffeaaae4672a079502db0d89c8d83ee10f4b1dcc4a9f9ee02322cb9740b1b703c4ef5fa577a053411557bc3652c91ef06c78a63cf2c68bc2e7f191957093be20e275a534c5f395af58e45df0c111f03151f8e37c46cfa52d192652a90f78785c795fb4e5aadf30862f2a09a29d679acd6a4fabf6751384e78296a15de285f2721fff45ced8d1e5f528d587612235364df59988222b726f1f4eb783e2bdb4703add979380a82776587e588fb3bfb8b8e077a94598c0d45630619f55bfff54902e58cfcff253ae5f823684fb05473387bf6320b6a2cacf584ee027e75730203010001a382015a3082015630120603551d130101ff040830060101ff020100300e0603551d0f0101ff040403020186301d0603551d250416301406082b0601050507030106082b06010505070302301d0603551d0e04160414c03152cd5a50c3827c7471cecbe99cf97aeb82e2301f0603551d230418301680148418cc8534ecbc0c94942e08599cc7b2104e0a08307b06082b06010505070101046f306d302f06082b060105050730018623687474703a2f2f6f6373702e726f6f746361312e616d617a6f6e74727573742e636f6d303a06082b06010505073002862e687474703a2f2f6372742e726f6f746361312e616d617a6f6e74727573742e636f6d2f726f6f746361312e636572303f0603551d1f043830363034a032a030862e687474703a2f2f63726c2e726f6f746361312e616d617a6f6e74727573742e636f6d2f726f6f746361312e63726c30130603551d20040c300a3008060667810c010201300d06092a864886f70d01010b050003820101002d4e2e85b340337e2fa2c26ee3af3f824b11c7fae1e5ecb6b0dcc4125d5b51f11579dcfb51eabffa80da6a97376866ae0529b0038b5bfd06e9fc458f03e75b9e7517e3b1b7a8762cde041f275e67b20f7dc4a7b5404e3e28cdc777d581557e0461bd34b136bad394da569149349b704c3eff2c837f351e103ab84628904e6af6ec2cff76242aa462133dd3b1a5a626a21166131b8007e9eceec55301486fb508b29a206522b13c8589a7188fa374dc05a99b6d5b5039c3515b3e6a090743b25236c9acaad27d935e81f23422c41fcae9b0945520b16c8348dcec1685acc9c5e3adbe6a349e8608f5d8889d35e44de3397e12835a59da675a776f4a900492ad8f\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/LoginHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 35,
+      "value": "\"\/origo\/sdkcredentialmanager\/login\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/LoginHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 10,
+      "value": "\"userName\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/LoginHolder.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 10,
+      "value": "\"password\""
+    },
+    {
+      "filePath": "\/Users\/maharani.svs\/Documents\/MEL\/iOS\/OrigoMelSDK\/Models\/LoginHolder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 737,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

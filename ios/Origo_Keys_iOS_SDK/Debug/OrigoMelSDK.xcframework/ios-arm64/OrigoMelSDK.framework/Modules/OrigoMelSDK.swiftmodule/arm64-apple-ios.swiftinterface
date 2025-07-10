@@ -1,0 +1,118 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OrigoMelSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CommonCrypto
+import CommonCrypto.CommonCryptor
+import CommonCrypto.CommonDigest
+import CoreData
+import CoreTelephony
+import Foundation
+@_exported import OrigoMelSDK
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public typealias ErrorHandler = ((OrigoMelSDK.MelErrorCode) -> Swift.Void)
+@_hasMissingDesignatedInitializers public class SafeDictionary<T> {
+  public var values: [T] {
+    get
+  }
+  public func setValue(_ key: Swift.String, _ value: T)
+  public func value(_ forKey: Swift.String) -> T?
+  public func removeValue(_ key: Swift.String)
+  public func removeAll()
+  @objc deinit
+}
+@objc public protocol MelAnalyticsBaseAPI : ObjectiveC.NSObjectProtocol {
+  @objc func track(eventName: Swift.String, attributes: [Swift.String : Any]?) throws
+  @objc func track(eventName: Swift.String, attributes: [Swift.String : Any]?, includeDeviceProperties: Swift.Bool) throws
+  @objc func timeEvent(eventName: Swift.String) throws
+  @objc func registerSuperProperties(properties: [Swift.String : Any]) throws
+  @objc func unregisterSuperProperty(propertyName: Swift.String)
+  @objc func unregisterAllSuperProperties()
+  @objc func deleteExpiredData()
+  @objc func syncEvents()
+  @objc func clearAllData()
+}
+@objc public enum MelBuildEnvironments : Swift.Int {
+  case PROD
+  case PREPROD
+  case CERT
+  case TEST
+  case DEV
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class MelBuilder : ObjectiveC.NSObject {
+  public var apiKey: Swift.String {
+    get
+  }
+  public var appId: Swift.String {
+    get
+  }
+  public var invitationHashCode: Swift.String {
+    get
+  }
+  public var retryLimit: Swift.Int {
+    get
+  }
+  public var batchLimit: Swift.Int {
+    get
+  }
+  public var batchSyncInterval: Swift.Double {
+    get
+  }
+  public var dataStorageLimit: Swift.Int {
+    get
+  }
+  public var dataStorageTimeLimit: Swift.Double {
+    get
+  }
+  public var buildEnvironment: OrigoMelSDK.MelBuildEnvironments {
+    get
+  }
+  @objc public init(appId: Swift.String, apiKey: Swift.String, invitationHashCode: Swift.String)
+  @objc public func setAPIKey(key: Swift.String)
+  @objc public func setAppId(appId: Swift.String)
+  @objc public func setInvitationHashCode(code: Swift.String)
+  @objc public func setBuildEnvironment(buildEnvironment: OrigoMelSDK.MelBuildEnvironments)
+  @objc public func setRetryLimit(limit: Swift.Int)
+  @objc public func setBatchLimit(limit: Swift.Int)
+  @objc public func setBatchSyncInterval(interval: Swift.Double)
+  @objc public func setDataStorageLimit(limit: Swift.Int)
+  @objc public func setDataStorageTimeLimit(limit: Swift.Double)
+  public func setErrorHandler(errorHandler: OrigoMelSDK.ErrorHandler?)
+  @objc public func build() throws -> any OrigoMelSDK.MelAnalyticsBaseAPI
+  @objc deinit
+}
+public enum MelErrorCode : Swift.Error, Swift.Equatable {
+  case MEL_EMPTY_EVENT_NAME
+  case MEL_INVALID_INVITATION_CODE
+  case MEL_INVALID_RETRY_LIMIT
+  case MEL_INVALID_BATCH_LIMIT
+  case MEL_INVALID_BATCH_SYNC_INTERVAL
+  case MEL_INVALID_DATA_STORAGE_LIMIT
+  case MEL_INVALID_DATA_STORAGE_TIME_LIMIT
+  case MEL_DATA_STORAGE_LIMIT_REACHED
+  case MEL_INVALID_API_KEY
+  case MEL_INVALID_APP_ID
+  case MEL_REGISTRATION_FAILED(message: Swift.String)
+  case MEL_LOGIN_FAILED(message: Swift.String)
+  case MEL_EVENTS_SYNC_FAILED(message: Swift.String)
+  case MEL_NETWORK_NOT_AVAILABLE
+  public static func == (a: OrigoMelSDK.MelErrorCode, b: OrigoMelSDK.MelErrorCode) -> Swift.Bool
+}
+extension OrigoMelSDK.MelErrorCode : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension OrigoMelSDK.MelBuildEnvironments : Swift.Equatable {}
+extension OrigoMelSDK.MelBuildEnvironments : Swift.Hashable {}
+extension OrigoMelSDK.MelBuildEnvironments : Swift.RawRepresentable {}
