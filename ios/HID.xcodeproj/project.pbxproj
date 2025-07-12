@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,21 +11,11 @@
 		07FE7F3141C85ACAF546BFD0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 613638E70E248D86955D20C0 /* PrivacyInfo.xcprivacy */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		9359CC06BBAFC5FB16E47A64 /* libPods-HID.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD484130FFED98F5640106 /* libPods-HID.a */; };
+		4A67296A775691BD05C52CD2 /* Pods_HID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DCE44FC4138C1AB7DE3FDD /* Pods_HID.framework */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
-		F4B0D4FD2E1D05AB0067F516 /* SeosMobileKeysSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B0D4E62E1D05AB0067F516 /* SeosMobileKeysSDK.xcframework */; };
-		F4B0D5042E1D05AB0067F516 /* OrigoNAOSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B0D4E22E1D05AB0067F516 /* OrigoNAOSDK.xcframework */; };
-		F4B0D5052E1D05AB0067F516 /* BerTlv.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B0D4F22E1D05AB0067F516 /* BerTlv.xcframework */; };
-		F4B0D5062E1D05AB0067F516 /* CocoaLumberjack.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B0D4F32E1D05AB0067F516 /* CocoaLumberjack.xcframework */; };
-		F4B0D5072E1D05AB0067F516 /* OrigoSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B0D4E42E1D05AB0067F516 /* OrigoSDK.xcframework */; };
-		F4B0D5082E1D05AB0067F516 /* JSONModel.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B0D4F42E1D05AB0067F516 /* JSONModel.xcframework */; };
-		F4B0D5092E1D05AB0067F516 /* OrigoMelSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B0D4E02E1D05AB0067F516 /* OrigoMelSDK.xcframework */; };
-		F4B0D50B2E1D05AB0067F516 /* SeosMobileKeysSDK-Debug.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F4B0D4E72E1D05AB0067F516 /* SeosMobileKeysSDK-Debug.podspec */; };
-		F4B0D50C2E1D05AB0067F516 /* OrigoSDK-Debug.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F4B0D4E52E1D05AB0067F516 /* OrigoSDK-Debug.podspec */; };
-		F4B0D50D2E1D05AB0067F516 /* Versions.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4B0D4FA2E1D05AB0067F516 /* Versions.txt */; };
-		F4B0D5102E1D05AB0067F516 /* OrigoNAOSDK-Debug.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F4B0D4E32E1D05AB0067F516 /* OrigoNAOSDK-Debug.podspec */; };
-		F4B0D5112E1D05AB0067F516 /* OrigoMelSDK-Debug.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F4B0D4E12E1D05AB0067F516 /* OrigoMelSDK-Debug.podspec */; };
+		F4CA31372E20F4B300F6610A /* HidModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CA31362E20F4B300F6610A /* HidModule.m */; };
+		F4CA313B2E20F61D00F6610A /* HidModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA313A2E20F61D00F6610A /* HidModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,27 +23,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HID/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HID/Info.plist; sourceTree = "<group>"; };
 		613638E70E248D86955D20C0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = HID/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		73BD484130FFED98F5640106 /* libPods-HID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HID.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		899DAB3DB1A39DB8BC402A56 /* Pods-HID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HID.release.xcconfig"; path = "Target Support Files/Pods-HID/Pods-HID.release.xcconfig"; sourceTree = "<group>"; };
 		8A56956C5F84204223880B01 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-HID/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = HID/SplashScreen.storyboard; sourceTree = "<group>"; };
-		B9E0CE5D38E81D2C4B67B805 /* Pods-HID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HID.debug.xcconfig"; path = "Target Support Files/Pods-HID/Pods-HID.debug.xcconfig"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = HID/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* HID-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HID-Bridging-Header.h"; path = "HID/HID-Bridging-Header.h"; sourceTree = "<group>"; };
-		F4B0D4E02E1D05AB0067F516 /* OrigoMelSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZCQ6TB82:HID Global Corporation"; lastKnownFileType = wrapper.xcframework; path = OrigoMelSDK.xcframework; sourceTree = "<group>"; };
-		F4B0D4E12E1D05AB0067F516 /* OrigoMelSDK-Debug.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OrigoMelSDK-Debug.podspec"; sourceTree = "<group>"; };
-		F4B0D4E22E1D05AB0067F516 /* OrigoNAOSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZCQ6TB82:HID Global Corporation"; lastKnownFileType = wrapper.xcframework; path = OrigoNAOSDK.xcframework; sourceTree = "<group>"; };
-		F4B0D4E32E1D05AB0067F516 /* OrigoNAOSDK-Debug.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OrigoNAOSDK-Debug.podspec"; sourceTree = "<group>"; };
-		F4B0D4E42E1D05AB0067F516 /* OrigoSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GJZCQ6TB82:HID Global Corporation"; lastKnownFileType = wrapper.xcframework; path = OrigoSDK.xcframework; sourceTree = "<group>"; };
-		F4B0D4E52E1D05AB0067F516 /* OrigoSDK-Debug.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OrigoSDK-Debug.podspec"; sourceTree = "<group>"; };
-		F4B0D4E62E1D05AB0067F516 /* SeosMobileKeysSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:333BNLD22V:ASSAABLOY AB"; lastKnownFileType = wrapper.xcframework; path = SeosMobileKeysSDK.xcframework; sourceTree = "<group>"; };
-		F4B0D4E72E1D05AB0067F516 /* SeosMobileKeysSDK-Debug.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SeosMobileKeysSDK-Debug.podspec"; sourceTree = "<group>"; };
-		F4B0D4F22E1D05AB0067F516 /* BerTlv.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BerTlv.xcframework; sourceTree = "<group>"; };
-		F4B0D4F32E1D05AB0067F516 /* CocoaLumberjack.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CocoaLumberjack.xcframework; sourceTree = "<group>"; };
-		F4B0D4F42E1D05AB0067F516 /* JSONModel.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = JSONModel.xcframework; sourceTree = "<group>"; };
-		F4B0D4FA2E1D05AB0067F516 /* Versions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Versions.txt; sourceTree = "<group>"; };
+		F3DCE44FC4138C1AB7DE3FDD /* Pods_HID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CA31362E20F4B300F6610A /* HidModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HidModule.m; path = HID/HidModule.m; sourceTree = "<group>"; };
+		F4CA313A2E20F61D00F6610A /* HidModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HidModule.swift; path = HID/HidModule.swift; sourceTree = "<group>"; };
+		FB7E9F3C2DD5298B42451599 /* Pods-HID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HID.release.xcconfig"; path = "Target Support Files/Pods-HID/Pods-HID.release.xcconfig"; sourceTree = "<group>"; };
+		FFC6FD1302C2D50BAB26F10D /* Pods-HID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HID.debug.xcconfig"; path = "Target Support Files/Pods-HID/Pods-HID.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B0D4FD2E1D05AB0067F516 /* SeosMobileKeysSDK.xcframework in Frameworks */,
-				F4B0D5042E1D05AB0067F516 /* OrigoNAOSDK.xcframework in Frameworks */,
-				F4B0D5052E1D05AB0067F516 /* BerTlv.xcframework in Frameworks */,
-				F4B0D5062E1D05AB0067F516 /* CocoaLumberjack.xcframework in Frameworks */,
-				F4B0D5072E1D05AB0067F516 /* OrigoSDK.xcframework in Frameworks */,
-				F4B0D5082E1D05AB0067F516 /* JSONModel.xcframework in Frameworks */,
-				F4B0D5092E1D05AB0067F516 /* OrigoMelSDK.xcframework in Frameworks */,
-				9359CC06BBAFC5FB16E47A64 /* libPods-HID.a in Frameworks */,
+				4A67296A775691BD05C52CD2 /* Pods_HID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +51,6 @@
 		13B07FAE1A68108700A75B9A /* HID */ = {
 			isa = PBXGroup;
 			children = (
-				F4B0D4FC2E1D05AB0067F516 /* Origo_Keys_iOS_SDK */,
 				F11748412D0307B40044C1D9 /* AppDelegate.swift */,
 				F11748442D0722820044C1D9 /* HID-Bridging-Header.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
@@ -86,6 +58,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 				613638E70E248D86955D20C0 /* PrivacyInfo.xcprivacy */,
+				F4CA31362E20F4B300F6610A /* HidModule.m */,
+				F4CA313A2E20F61D00F6610A /* HidModule.swift */,
 			);
 			name = HID;
 			sourceTree = "<group>";
@@ -94,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				73BD484130FFED98F5640106 /* libPods-HID.a */,
+				F3DCE44FC4138C1AB7DE3FDD /* Pods_HID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,53 +131,10 @@
 		D2395A89A6295D3F6C9AC325 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B9E0CE5D38E81D2C4B67B805 /* Pods-HID.debug.xcconfig */,
-				899DAB3DB1A39DB8BC402A56 /* Pods-HID.release.xcconfig */,
+				FFC6FD1302C2D50BAB26F10D /* Pods-HID.debug.xcconfig */,
+				FB7E9F3C2DD5298B42451599 /* Pods-HID.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F4B0D4E82E1D05AB0067F516 /* Debug */ = {
-			isa = PBXGroup;
-			children = (
-				F4B0D4E02E1D05AB0067F516 /* OrigoMelSDK.xcframework */,
-				F4B0D4E12E1D05AB0067F516 /* OrigoMelSDK-Debug.podspec */,
-				F4B0D4E22E1D05AB0067F516 /* OrigoNAOSDK.xcframework */,
-				F4B0D4E32E1D05AB0067F516 /* OrigoNAOSDK-Debug.podspec */,
-				F4B0D4E42E1D05AB0067F516 /* OrigoSDK.xcframework */,
-				F4B0D4E52E1D05AB0067F516 /* OrigoSDK-Debug.podspec */,
-				F4B0D4E62E1D05AB0067F516 /* SeosMobileKeysSDK.xcframework */,
-				F4B0D4E72E1D05AB0067F516 /* SeosMobileKeysSDK-Debug.podspec */,
-			);
-			path = Debug;
-			sourceTree = "<group>";
-		};
-		F4B0D4F52E1D05AB0067F516 /* Debug */ = {
-			isa = PBXGroup;
-			children = (
-				F4B0D4F22E1D05AB0067F516 /* BerTlv.xcframework */,
-				F4B0D4F32E1D05AB0067F516 /* CocoaLumberjack.xcframework */,
-				F4B0D4F42E1D05AB0067F516 /* JSONModel.xcframework */,
-			);
-			path = Debug;
-			sourceTree = "<group>";
-		};
-		F4B0D4FB2E1D05AB0067F516 /* Thirdparty */ = {
-			isa = PBXGroup;
-			children = (
-				F4B0D4F52E1D05AB0067F516 /* Debug */,
-				F4B0D4FA2E1D05AB0067F516 /* Versions.txt */,
-			);
-			path = Thirdparty;
-			sourceTree = "<group>";
-		};
-		F4B0D4FC2E1D05AB0067F516 /* Origo_Keys_iOS_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				F4B0D4E82E1D05AB0067F516 /* Debug */,
-				F4B0D4FB2E1D05AB0067F516 /* Thirdparty */,
-			);
-			path = Origo_Keys_iOS_SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,14 +144,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HID" */;
 			buildPhases = (
-				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
+				EC7172AD3DD26002E651E080 /* [CP] Check Pods Manifest.lock */,
 				2CC62130687E60C1D4E670CE /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				E5B429A52DB4BE6DD1978DD9 /* [CP] Embed Pods Frameworks */,
+				BA0AE4CD8F373D177CECC017 /* [CP] Embed Pods Frameworks */,
+				0225CDE998918B55BE7BECAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,11 +201,6 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				F4B0D50B2E1D05AB0067F516 /* SeosMobileKeysSDK-Debug.podspec in Resources */,
-				F4B0D50C2E1D05AB0067F516 /* OrigoSDK-Debug.podspec in Resources */,
-				F4B0D50D2E1D05AB0067F516 /* Versions.txt in Resources */,
-				F4B0D5102E1D05AB0067F516 /* OrigoNAOSDK-Debug.podspec in Resources */,
-				F4B0D5112E1D05AB0067F516 /* OrigoMelSDK-Debug.podspec in Resources */,
 				07FE7F3141C85ACAF546BFD0 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,26 +223,36 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" \"$PROJECT_ROOT\" ios absolute | tail -n 1)\"\nfi\n\nif [[ -z \"$CLI_PATH\" ]]; then\n  # Use Expo CLI\n  export CLI_PATH=\"$(\"$NODE_BINARY\" --print \"require.resolve('@expo/cli', { paths: [require.resolve('expo/package.json')] })\")\"\nfi\nif [[ -z \"$BUNDLE_COMMAND\" ]]; then\n  # Default Expo CLI command for bundling\n  export BUNDLE_COMMAND=\"export:embed\"\nfi\n\n# Source .xcode.env.updates if it exists to allow\n# SKIP_BUNDLING to be unset if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.updates\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.updates\"\nfi\n# Source local changes to allow overrides\n# if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
 		};
-		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
+		0225CDE998918B55BE7BECAE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-HID/Pods-HID-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/OrigoSDK-Debug/OrigoSDK-Debug_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SeosMobileKeysSDK-Debug/SeosMobileKeysSDK-Debug_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/boost/boost_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/OrigoSDK-Release/OrigoSDK-Release_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SeosMobileKeysSDK-Release/SeosMobileKeysSDK-Release_Privacy.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HID-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoConstants_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OrigoSDK-Debug_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SeosMobileKeysSDK-Debug_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/boost_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OrigoSDK-Release_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SeosMobileKeysSDK-Release_Privacy.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HID/Pods-HID-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2CC62130687E60C1D4E670CE /* [Expo] Configure project */ = {
@@ -338,63 +274,155 @@
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-HID/expo-configure-project.sh\"\n";
 		};
-		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HID/Pods-HID-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack/CocoaLumberjackPrivacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/Mixpanel/Mixpanel.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/OrigoSDK-Debug/OrigoSDK-Debug_Privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/RCT-Folly_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions/RNPermissionsPrivacyInfo.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/React-cxxreact_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/SeosMobileKeysSDK-Debug/SeosMobileKeysSDK-Debug_Privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/boost/boost_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog_privacy.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CocoaLumberjackPrivacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoConstants_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Mixpanel.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OrigoSDK-Debug_Privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCT-Folly_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RNPermissionsPrivacyInfo.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-Core_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-cxxreact_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SeosMobileKeysSDK-Debug_Privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/boost_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/glog_privacy.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HID/Pods-HID-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5B429A52DB4BE6DD1978DD9 /* [CP] Embed Pods Frameworks */ = {
+		BA0AE4CD8F373D177CECC017 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HID/Pods-HID-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BerTlv/BerTlv.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework",
+				"${BUILT_PRODUCTS_DIR}/RCT-Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTDeprecation/RCTDeprecation.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCClipboard/RNCClipboard.framework",
+				"${BUILT_PRODUCTS_DIR}/RNPermissions/RNPermissions.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Fabric/React_Fabric.framework",
+				"${BUILT_PRODUCTS_DIR}/React-FabricComponents/React_FabricComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/React-FabricImage/React_FabricImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-ImageManager/React_ImageManager.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Mapbuffer/React_Mapbuffer.framework",
+				"${BUILT_PRODUCTS_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAppDelegate/React_RCTAppDelegate.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTFBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTFabric/RCTFabric.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTRuntime/RCTRuntime.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RuntimeApple/React_RuntimeApple.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RuntimeCore/React_RuntimeCore.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RuntimeHermes/React_RuntimeHermes.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-debug/React_debug.framework",
+				"${BUILT_PRODUCTS_DIR}/React-defaultsnativemodule/React_defaultsnativemodule.framework",
+				"${BUILT_PRODUCTS_DIR}/React-domnativemodule/React_domnativemodule.framework",
+				"${BUILT_PRODUCTS_DIR}/React-featureflags/React_featureflags.framework",
+				"${BUILT_PRODUCTS_DIR}/React-featureflagsnativemodule/React_featureflagsnativemodule.framework",
+				"${BUILT_PRODUCTS_DIR}/React-graphics/React_graphics.framework",
+				"${BUILT_PRODUCTS_DIR}/React-hermes/reacthermes.framework",
+				"${BUILT_PRODUCTS_DIR}/React-idlecallbacksnativemodule/idlecallbacksnativemodule.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jserrorhandler/React_jserrorhandler.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector_modern.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspectortracing/jsinspector_moderntracing.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsitooling/JSITooling.framework",
+				"${BUILT_PRODUCTS_DIR}/React-logger/logger.framework",
+				"${BUILT_PRODUCTS_DIR}/React-microtasksnativemodule/React_microtasksnativemodule.framework",
+				"${BUILT_PRODUCTS_DIR}/React-oscompat/oscompat.framework",
+				"${BUILT_PRODUCTS_DIR}/React-perflogger/reactperflogger.framework",
+				"${BUILT_PRODUCTS_DIR}/React-performancetimeline/React_performancetimeline.framework",
+				"${BUILT_PRODUCTS_DIR}/React-rendererconsistency/React_rendererconsistency.framework",
+				"${BUILT_PRODUCTS_DIR}/React-renderercss/React_renderercss.framework",
+				"${BUILT_PRODUCTS_DIR}/React-rendererdebug/React_rendererdebug.framework",
+				"${BUILT_PRODUCTS_DIR}/React-runtimescheduler/React_runtimescheduler.framework",
+				"${BUILT_PRODUCTS_DIR}/React-utils/React_utils.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactAppDependencyProvider/ReactAppDependencyProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCodegen/ReactCodegen.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/fmt/fmt.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OrigoMelSDK-Debug/OrigoMelSDK.framework/OrigoMelSDK",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OrigoNAOSDK-Debug/OrigoNAOSDK.framework/OrigoNAOSDK",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OrigoSDK-Debug/OrigoSDK.framework/OrigoSDK",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SeosMobileKeysSDK-Debug/SeosMobileKeysSDK.framework/SeosMobileKeysSDK",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OrigoMelSDK-Release/OrigoMelSDK.framework/OrigoMelSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OrigoNAOSDK-Release/OrigoNAOSDK.framework/OrigoNAOSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OrigoSDK-Release/OrigoSDK.framework/OrigoSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SeosMobileKeysSDK-Release/SeosMobileKeysSDK.framework/SeosMobileKeysSDK",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BerTlv.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTDeprecation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCClipboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNPermissions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_Fabric.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_FabricComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_FabricImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_ImageManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_Mapbuffer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_NativeModulesApple.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_RCTAppDelegate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTFabric.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTRuntime.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_RuntimeApple.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_RuntimeCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_RuntimeHermes.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_debug.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_defaultsnativemodule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_domnativemodule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_featureflags.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_featureflagsnativemodule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_graphics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/reacthermes.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/idlecallbacksnativemodule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_jserrorhandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector_modern.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector_moderntracing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSITooling.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/logger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_microtasksnativemodule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/oscompat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/reactperflogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_performancetimeline.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_rendererconsistency.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_renderercss.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_rendererdebug.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_runtimescheduler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React_utils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactAppDependencyProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCodegen.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fmt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrigoMelSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrigoNAOSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrigoSDK.framework",
@@ -406,6 +434,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HID/Pods-HID-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EC7172AD3DD26002E651E080 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HID-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -414,6 +464,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
+				F4CA313B2E20F61D00F6610A /* HidModule.swift in Sources */,
+				F4CA31372E20F4B300F6610A /* HidModule.m in Sources */,
 				011E5E3FE5170F04016A95D7 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,7 +475,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9E0CE5D38E81D2C4B67B805 /* Pods-HID.debug.xcconfig */;
+			baseConfigurationReference = FFC6FD1302C2D50BAB26F10D /* Pods-HID.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -436,7 +488,7 @@
 					"FB_SONARKIT_ENABLED=1",
 				);
 				INFOPLIST_FILE = HID/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +512,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 899DAB3DB1A39DB8BC402A56 /* Pods-HID.release.xcconfig */;
+			baseConfigurationReference = FB7E9F3C2DD5298B42451599 /* Pods-HID.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -468,7 +520,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2KQF4RH7CL;
 				INFOPLIST_FILE = HID/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,6 +588,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
@@ -592,6 +655,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,

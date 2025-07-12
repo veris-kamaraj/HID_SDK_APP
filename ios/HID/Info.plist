@@ -86,6 +86,7 @@
 		<string>fetch</string>
 		<string>location</string>
 		<string>bluetooth-central</string>
+		<string>processing</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>SplashScreen</string>

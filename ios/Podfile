@@ -13,19 +13,14 @@ install! 'cocoapods',
 
 prepare_react_native_project!
 def applibs
- pod 'OrigoSDK-Debug', :configuration => ['Debug'], :path  => 'Origo_Keys_iOS_SDK/Debug/OrigoSDK-Debug.podspec'
-
-pod 'SeosMobileKeysSDK-Debug', :configuration => ['Debug'], :path  => 'Origo_Keys_iOS_SDK/Debug/SeosMobileKeysSDK-Debug.podspec'
-
-pod 'OrigoNAOSDK-Debug', :configuration => ['Debug'], :path  => 'Origo_Keys_iOS_SDK/Debug/OrigoNAOSDK-Debug.podspec'
-
-pod 'OrigoMelSDK-Debug', :configuration => ['Debug'], :path  => 'Origo_Keys_iOS_SDK/Debug/OrigoMelSDK-Debug.podspec'
-
-
-# pod 'OrigoSDK-Release', :configuration => ['Release'], :path  => 'Origo_Keys_iOS_SDK/Release/OrigoSDK-Release.podspec'
-# pod 'SeosMobileKeysSDK-Release', :configuration => ['Release'], :path  => 'Origo_Keys_iOS_SDK/Release/SeosMobileKeysSDK-Release.podspec'
-#  pod 'OrigoNAOSDK-Release', :configuration => ['Release'], :path  => 'Origo_Keys_iOS_SDK/Release/OrigoNAOSDK-Release.podspec'
-#  pod 'OrigoMelSDK-Release', :configuration => ['Release'], :path  => 'Origo_Keys_iOS_SDK/Release/OrigoMelSDK-Release.podspec'
+ pod 'OrigoSDK-Debug', :configuration => ['Debug'], :path  => 'Dependencies/Origo_Keys_iOS_SDK/Debug/OrigoSDK-Debug.podspec'
+pod 'OrigoSDK-Release', :configuration => ['Release'], :path  => 'Dependencies/Origo_Keys_iOS_SDK/Release/OrigoSDK-Release.podspec'
+pod 'SeosMobileKeysSDK-Debug', :configuration => ['Debug'], :path  => 'Dependencies/Origo_Keys_iOS_SDK/Debug/SeosMobileKeysSDK-Debug.podspec'
+pod 'SeosMobileKeysSDK-Release', :configuration => ['Release'], :path  => 'Dependencies/Origo_Keys_iOS_SDK/Release/SeosMobileKeysSDK-Release.podspec'
+pod 'OrigoNAOSDK-Debug', :configuration => ['Debug'], :path  => 'Dependencies/Origo_Keys_iOS_SDK/Debug/OrigoNAOSDK-Debug.podspec'
+ pod 'OrigoNAOSDK-Release', :configuration => ['Release'], :path  => 'Dependencies/Origo_Keys_iOS_SDK/Release/OrigoNAOSDK-Release.podspec'
+pod 'OrigoMelSDK-Debug', :configuration => ['Debug'], :path  => 'Dependencies/Origo_Keys_iOS_SDK/Debug/OrigoMelSDK-Debug.podspec'
+pod 'OrigoMelSDK-Release', :configuration => ['Release'], :path  => 'Dependencies/Origo_Keys_iOS_SDK/Release/OrigoMelSDK-Release.podspec'
 end
 
 target 'HID' do
@@ -47,9 +42,9 @@ target 'HID' do
 
   config = use_native_modules!(config_command)
 
-  use_frameworks! :linkage => podfile_properties['ios.useFrameworks'].to_sym if podfile_properties['ios.useFrameworks']
-  use_frameworks! :linkage => ENV['USE_FRAMEWORKS'].to_sym if ENV['USE_FRAMEWORKS']
-
+  # use_frameworks! :linkage => podfile_properties['ios.useFrameworks'].to_sym if podfile_properties['ios.useFrameworks']
+  # use_frameworks! :linkage => ENV['USE_FRAMEWORKS'].to_sym if ENV['USE_FRAMEWORKS']
+  use_frameworks! :linkage => :dynamic
   use_react_native!(
     :path => config[:reactNativePath],
     :hermes_enabled => podfile_properties['expo.jsEngine'] == nil || podfile_properties['expo.jsEngine'] == 'hermes',
